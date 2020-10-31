@@ -1,0 +1,12 @@
+molecule
+molecule-azure
+molecule-containers
+molecule-docker
+molecule-digitalocean
+molecule-ec2
+molecule-gce
+molecule-libvirt
+molecule-lxd
+molecule-podman
+molecule-openstack
+molecule-vagrant
