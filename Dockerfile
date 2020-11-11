@@ -5,15 +5,19 @@ ENV PACKAGES="\
 ansible \
 docker \
 git \
+gcc \
 openssh-client \
 docker-py \
-libvirt \
+libc-dev \
+libffi-dev \
 libsodium \
-rsync \
+openssl-dev \
+libvirt \
 py3-bcrypt \
 py3-botocore \
 py3-certifi \
 py3-cffi \
+rsync \
 py3-chardet \
 py3-click \
 py3-colorama \
@@ -41,6 +45,7 @@ py3-urllib3 \
 py3-virtualenv \
 py3-websocket-client \
 python3 \
+python3-dev \
 "
 
 # ENV BUILD_DEPS="\

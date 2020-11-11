@@ -1,0 +1,16 @@
+#!/usr/bin/env pip-compile -q --allow-unsafe --no-annotate --output-file=requirements.txt
+# Avoid using --generate-hashes as it breaks pip install from tox.
+# Avoiud --no-annotate as it may produce non relative paths
+ansible-lint  # this also brings ansible
+molecule
+molecule-azure
+molecule-containers
+molecule-docker
+molecule-digitalocean
+molecule-ec2
+molecule-gce
+molecule-libvirt
+molecule-lxd
+molecule-podman
+molecule-openstack
+molecule-vagrant
