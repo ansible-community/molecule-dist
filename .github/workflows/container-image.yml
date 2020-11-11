@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the container image
-      run: docker build . --file Dockerfile --tag molecule:$(date +%s)
+      - uses: actions/checkout@v2
+      - name: Build the container image
+        run: docker build . --file Dockerfile --tag molecule:$(date +%s)
