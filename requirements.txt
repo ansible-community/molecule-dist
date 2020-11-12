@@ -53,10 +53,10 @@ pyparsing==2.4.7          # via packaging
 python-dateutil==2.8.1    # via arrow
 python-slugify==4.0.1     # via cookiecutter
 pyyaml==5.3.1             # via ansible-base, ansible-lint, molecule, molecule-containers, molecule-digitalocean, molecule-ec2, molecule-gce, molecule-libvirt, molecule-lxd, molecule-openstack, molecule-vagrant, yamllint
-requests==2.24.0          # via cookiecutter, docker
+requests==2.25.0          # via cookiecutter, docker
 rich==9.2.0               # via ansible-lint, molecule
 ruamel.yaml==0.16.12      # via ansible-lint
-selinux==0.2.1            # via molecule-vagrant
+selinux==0.2.1            # via molecule, molecule-docker, molecule-podman, molecule-vagrant
 shellingham==1.3.2        # via click-completion
 six==1.15.0               # via bcrypt, click-completion, cookiecutter, cryptography, docker, packaging, pynacl, python-dateutil, websocket-client
 subprocess-tee==0.1.5     # via molecule
