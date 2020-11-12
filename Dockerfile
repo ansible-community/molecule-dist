@@ -1,38 +1,19 @@
-FROM alpine:edge
+FROM python:3.8-slim-buster
+# see https://pythonspeed.com/articles/base-image-python-docker-images/
 LABEL maintainer="Ansible <info@ansible.com>"
 
 ENV PACKAGES="\
-ansible \
 docker \
 git \
-gcc \
-openssh-client \
-docker-py \
-libc-dev \
-libffi-dev \
-libsodium \
-openssl-dev \
-libvirt \
 rsync \
-py3-pip \
-python3 \
-python3-dev \
 "
-
-# ENV BUILD_DEPS="\
-# gcc \
-# libc-dev \
-# libvirt-dev \
-# make \
-# "
 
 ENV PIP_INSTALL_ARGS="--pre"
 
 RUN \
-apk add --update --no-cache \
-${BUILD_DEPS} ${PACKAGES} \
-&& apk del --no-cache ${BUILD_DEPS} \
-&& rm -rf /root/.cache
+apt update && \
+apt install -y ${PACKAGES} && \
+apt-get autoclean
 
 COPY requirements.txt /tmp/requirements.txt
 

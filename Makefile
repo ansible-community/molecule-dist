@@ -5,7 +5,7 @@
 ENGINE ?= $(shell command -v docker podman|head -n1)
 IMAGE_TAG=localhost/toolset
 
-all: deps
+all:
 	$(ENGINE) build -t $(IMAGE_TAG) .
 	@echo "Image size: $$($(ENGINE) image inspect --format='scale=0; {{.Size}}/1024/1024' $(IMAGE_TAG) | bc)MB"
 
