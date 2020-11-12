@@ -11,3 +11,6 @@ all:
 
 deps:
 	tox -e deps
+
+into:
+	$(ENGINE) run -h toolset -it $(IMAGE_TAG) /bin/bash
