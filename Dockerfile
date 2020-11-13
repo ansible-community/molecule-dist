@@ -1,4 +1,7 @@
-FROM python:3.8-slim-buster
+FROM quay.io/ssbarnea/python:3.8-slim-buster
+# Image above is just a mirror of ^ docker.io/python:3.8-slim-buster which we
+# had to manually create because at this moment quay.io has mirroring disabled
+# and our builds were randomly failing due to docker pull limiting us.
 # see https://pythonspeed.com/articles/base-image-python-docker-images/
 LABEL maintainer="Ansible <info@ansible.com>"
 

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+
+docker pull python:3.8-slim-buster
+docker tag python:3.8-slim-buster quay.io/ssbarnea/python:3.8-slim-buster
+docker push quay.io/ssbarnea/python:3.8-slim-buster
