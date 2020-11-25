@@ -18,9 +18,10 @@ ENV PIP_INSTALL_ARGS="--pre"
 ENV PYTHONDONTWRITEBYTECODE=1
 
 RUN \
-apt update && \
-apt install -y ${PACKAGES} && \
-apt-get autoclean
+apt-get update && \
+apt-get install --no-install-recommends -y ${PACKAGES} && \
+apt-get clean && \
+rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /tmp/requirements.txt
 
