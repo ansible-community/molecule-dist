@@ -18,6 +18,7 @@ libyaml-dev \
 
 ENV PIP_INSTALL_ARGS="--pre"
 ENV PYTHONDONTWRITEBYTECODE=1
+ENV ANSIBLE_FORCE_COLOR=1
 
 # podman is missing from debian 10 but will be included in 11, so for the
 # moment we install it from kubic repors.
