@@ -23,6 +23,7 @@ cookiecutter==1.7.2
 cryptography==3.2.1
 distro==1.5.0
 docker==4.4.0
+enrich==1.2.3
 idna==2.10
 jinja2-time==0.2.0
 jinja2==2.11.2
@@ -38,14 +39,12 @@ molecule-lxd==0.1
 molecule-openstack==0.2
 molecule-podman==0.3.0
 molecule-vagrant==0.5
-molecule==3.2.0a0
+molecule==3.2.0
 packaging==20.4
 paramiko==2.7.2
 pathspec==0.8.1
-pexpect==4.8.0
 pluggy==0.13.1
 poyo==0.5.0
-ptyprocess==0.6.0
 pycparser==2.20
 pygments==2.7.2
 pynacl==1.4.0
