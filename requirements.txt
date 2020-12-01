@@ -38,7 +38,7 @@ molecule-libvirt==0.0.3
 molecule-lxd==0.1
 molecule-openstack==0.2
 molecule-podman==0.3.0
-molecule-vagrant==0.5
+molecule-vagrant==0.6
 molecule==3.2.0
 packaging==20.7
 paramiko==2.7.2
