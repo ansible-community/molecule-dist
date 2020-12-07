@@ -66,4 +66,4 @@ websocket-client==0.57.0
 yamllint==1.25.0
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==50.3.2
+setuptools==51.0.0
