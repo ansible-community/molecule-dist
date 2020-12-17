@@ -10,3 +10,6 @@ updates:
       - dependency-type: "all"
     assignees:
       - "ssbarnea"
+    labels:
+      - "major"  # reviewer is expected to remove on of them
+      - "dependencies"
