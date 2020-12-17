@@ -1,0 +1,13 @@
+name: mirror
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror base image from docker.io to quay.io
+        run: ./tools/mirror-base-image

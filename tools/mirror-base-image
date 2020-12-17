@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-docker pull python:3.8-slim-buster
-docker tag python:3.8-slim-buster quay.io/ssbarnea/python:3.8-slim-buster
-docker push quay.io/ssbarnea/python:3.8-slim-buster
+# Inspired by: https://www.openshift.com/blog/mitigate-impact-of-docker-hub-pull-request-limits
+
+skopeo login --username "$QUAY_USER" --password-stdin quay.io <<< "$QUAY_PASS"
+skopeo sync --src docker --dest docker docker.io/python:3.8-slim-buster quay.io/pycontribs/
