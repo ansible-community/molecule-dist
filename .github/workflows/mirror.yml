@@ -7,7 +7,9 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
+      - name: Clone the source code
+        uses: actions/checkout@v2
       - name: Mirror base image from docker.io to quay.io
         run: ./tools/mirror-base-image
