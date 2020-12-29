@@ -14,3 +14,4 @@ molecule-lxd
 molecule-podman
 molecule-openstack
 molecule-vagrant
+molecule-goss
