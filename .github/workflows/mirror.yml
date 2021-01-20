@@ -1,4 +1,5 @@
 name: mirror
+environment: mirror
 
 on:
   schedule:
