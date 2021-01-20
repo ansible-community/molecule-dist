@@ -1,5 +1,4 @@
 name: mirror
-environment: mirror
 
 on:
   schedule:
@@ -7,7 +6,8 @@ on:
 
 jobs:
 
-  build:
+  mirror:
+    environment: mirror
     runs-on: ubuntu-20.04
     steps:
       - name: Clone the source code
