@@ -9,6 +9,8 @@ molecule-docker
 molecule-digitalocean
 molecule-ec2
 molecule-gce
+molecule-goss
+molecule-inspec
 molecule-libvirt
 molecule-lxd
 molecule-podman

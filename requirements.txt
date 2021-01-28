@@ -42,6 +42,8 @@ molecule-digitalocean==0.1
 molecule-docker==0.3.3
 molecule-ec2==0.3
 molecule-gce==0.2
+molecule-goss==1.1
+molecule-inspec==1.1
 molecule-libvirt==0.0.3
 molecule-lxd==0.1
 molecule-openstack==0.3
