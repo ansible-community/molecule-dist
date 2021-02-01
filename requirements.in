@@ -17,3 +17,4 @@ molecule-podman
 molecule-openstack
 molecule-vagrant
 openstacksdk
+ruamel.yaml.clib>=0.2.2  # performance
