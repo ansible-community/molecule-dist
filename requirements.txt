@@ -54,7 +54,7 @@ munch==2.5.0
 netifaces==0.10.9
 openstacksdk==0.53.0
 os-service-types==1.7.0
-packaging==20.8
+packaging==20.9
 paramiko==2.7.2
 pathspec==0.8.1
 pbr==5.5.1
