@@ -5,11 +5,19 @@ updates:
   - package-ecosystem: pip
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     allow:
-      - dependency-type: "all"
+      # Allow only direct updates for
+      # Django and any packages starting "django"
+      - dependency-name: "ansible*"
+        dependency-type: "direct"
+      # Allow only production updates for Sphinx
+      - dependency-name: "molecule*"
+        dependency-type: "direct"
+      - dependency-name: "yamllint"
+        dependency-type: "direct"
     assignees:
       - "ssbarnea"
     labels:
-      - "major"  # reviewer is expected to remove on of them
+      - "major"  # reviewer is expected to remove one of them
       - "dependencies"
