@@ -30,7 +30,7 @@ enrich==1.2.6
 idna==2.10
 iso8601==0.1.13
 jinja2-time==0.2.0
-jinja2==2.11.2
+jinja2==2.11.3
 jmespath==0.10.0
 jsonpatch==1.28
 jsonpointer==2.0
