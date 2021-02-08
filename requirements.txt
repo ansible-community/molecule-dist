@@ -28,7 +28,7 @@ docker==4.4.1
 dogpile.cache==1.1.2
 enrich==1.2.6
 idna==2.10
-iso8601==0.1.13
+iso8601==0.1.14
 jinja2-time==0.2.0
 jinja2==2.11.2
 jmespath==0.10.0
