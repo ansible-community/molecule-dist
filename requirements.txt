@@ -21,7 +21,7 @@ click==7.1.2
 colorama==0.4.4
 commonmark==0.9.1
 cookiecutter==1.7.2
-cryptography==3.3.1
+cryptography==3.3.2
 decorator==4.4.2
 distro==1.5.0
 docker==4.4.1
