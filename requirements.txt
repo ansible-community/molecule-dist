@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --no-annotate --output-file=requirements.txt requirements.in
 #
-ansible-base==2.10.5
-ansible-lint==5.0.0
-ansible==2.10.7
+ansible-base==2.10.6
+ansible-lint==5.0.2
+ansible==3.0.0
 appdirs==1.4.4
 arrow==0.17.0
 bcrypt==3.2.0
@@ -22,10 +22,10 @@ click==7.1.2
 colorama==0.4.4
 commonmark==0.9.1
 cookiecutter==1.7.2
-cryptography==3.4.5
+cryptography==3.4.6
 decorator==4.4.2
 distro==1.5.0
-docker==4.4.2
+docker==4.4.3
 dogpile.cache==1.1.2
 enrich==1.2.6
 idna==2.10
@@ -70,7 +70,7 @@ python-slugify==4.0.1
 pyyaml==5.4.1
 requests==2.25.1
 requestsexceptions==1.4.0
-rich==9.11.0
+rich==9.11.1
 ruamel.yaml.clib==0.2.2
 ruamel.yaml==0.16.12
 selinux==0.2.1
