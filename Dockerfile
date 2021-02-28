@@ -52,6 +52,9 @@ python3 -m pip check && \
 which docker && \
 podman --version
 
+# Use a more convenient default command than the Python base image
+CMD /bin/bash
+
 # running cli commands adds a minimal level fail-safe protection
 # against a broken image.
 # We cannot run `docker --version` because it requires a server running and
