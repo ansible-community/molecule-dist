@@ -11,6 +11,7 @@ git \
 gcc \
 gnupg \
 rsync \
+ssh \
 libyaml-dev \
 "
 
