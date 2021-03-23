@@ -35,7 +35,7 @@ COPY --from=toolset-builder /opt/toolset /opt/toolset
 
 RUN \
 apt-get update && \
-apt-get install -y --no-install-recommends curl gnupg docker.io && \
+apt-get install -y --no-install-recommends curl git gnupg docker.io && \
 # podman is missing from debian 10 but will be included in 11, so for the
 # moment we install it from kubic repors.
 # workaround for https://github.com/containers/podman/issues/8665
@@ -50,7 +50,8 @@ molecule --version && \
 molecule drivers && \
 python3 -m pip check && \
 which docker && \
-podman --version
+podman --version && \
+git --version
 
 # Use a more convenient default command than the Python base image
 CMD /bin/bash

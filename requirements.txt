@@ -4,11 +4,11 @@
 #
 #    pip-compile --allow-unsafe --no-annotate --output-file=requirements.txt requirements.in
 #
-ansible-base==2.10.6
-ansible-lint==5.0.2
-ansible==3.0.0
+ansible-base==2.10.7
+ansible-lint==5.0.4
+ansible==3.1.0
 appdirs==1.4.4
-arrow==0.17.0
+arrow==1.0.3
 bcrypt==3.2.0
 binaryornot==0.4.4
 bracex==2.1.1
@@ -25,7 +25,7 @@ cookiecutter==1.7.2
 cryptography==3.4.6
 decorator==4.4.2
 distro==1.5.0
-docker==4.4.3
+docker==4.4.4
 dogpile.cache==1.1.2
 enrich==1.2.6
 idna==2.10
@@ -33,9 +33,9 @@ iso8601==0.1.14
 jinja2-time==0.2.0
 jinja2==2.11.3
 jmespath==0.10.0
-jsonpatch==1.28
-jsonpointer==2.0
-keystoneauth1==4.3.0
+jsonpatch==1.32
+jsonpointer==2.1
+keystoneauth1==4.3.1
 markupsafe==1.1.1
 molecule-azure==0.5.0
 molecule-containers==0.2.1
@@ -46,23 +46,22 @@ molecule-gce==0.2
 molecule-goss==1.1
 molecule-inspec==1.1
 molecule-libvirt==0.0.3
-molecule-lxd==0.1
+molecule-lxd==0.2
 molecule-openstack==0.3
 molecule-podman==0.3.0
 molecule-vagrant==0.6.1
-molecule==3.2.3
+molecule==3.2.4
 munch==2.5.0
 netifaces==0.10.9
-openstacksdk==0.53.0
+openstacksdk==0.55.0
 os-service-types==1.7.0
 packaging==20.9
 paramiko==2.7.2
-pathspec==0.8.1
 pbr==5.5.1
 pluggy==0.13.1
 poyo==0.5.0
 pycparser==2.20
-pygments==2.8.0
+pygments==2.8.1
 pynacl==1.4.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
@@ -70,9 +69,9 @@ python-slugify==4.0.1
 pyyaml==5.4.1
 requests==2.25.1
 requestsexceptions==1.4.0
-rich==9.11.1
+rich==9.13.0
 ruamel.yaml.clib==0.2.2
-ruamel.yaml==0.16.12
+ruamel.yaml==0.16.13
 selinux==0.2.1
 shellingham==1.4.0
 six==1.15.0
@@ -80,10 +79,9 @@ stevedore==3.3.0
 subprocess-tee==0.2.0
 text-unidecode==1.3
 typing-extensions==3.7.4.3
-urllib3==1.26.3
-wcmatch==8.1.1
-websocket-client==0.57.0
-yamllint==1.26.0
+urllib3==1.26.4
+wcmatch==8.1.2
+websocket-client==0.58.0
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==53.0.0
+setuptools==54.2.0
