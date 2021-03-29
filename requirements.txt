@@ -5,7 +5,7 @@
 #    pip-compile --allow-unsafe --no-annotate --output-file=requirements.txt requirements.in
 #
 ansible-base==2.10.7
-ansible-lint==5.0.4
+ansible-lint==5.0.6
 ansible==3.1.0
 appdirs==1.4.4
 arrow==1.0.3
@@ -50,7 +50,7 @@ molecule-lxd==0.2
 molecule-openstack==0.3
 molecule-podman==0.3.0
 molecule-vagrant==0.6.1
-molecule==3.2.4
+molecule==3.3.0
 munch==2.5.0
 netifaces==0.10.9
 openstacksdk==0.55.0
