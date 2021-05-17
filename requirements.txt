@@ -21,7 +21,7 @@ click-help-colors==0.9
 click==7.1.2
 colorama==0.4.4
 commonmark==0.9.1
-cookiecutter==1.7.2
+cookiecutter==1.7.3
 cryptography==3.4.7
 decorator==4.4.2
 distro==1.5.0
@@ -50,7 +50,7 @@ molecule-lxd==0.2
 molecule-openstack==0.3
 molecule-podman==0.3.0
 molecule-vagrant==0.6.3
-molecule==3.3.0
+molecule==3.3.1
 munch==2.5.0
 netifaces==0.10.9
 openstacksdk==0.55.0
