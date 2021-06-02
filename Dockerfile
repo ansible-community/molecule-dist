@@ -19,10 +19,11 @@ COPY requirements.txt /tmp/requirements.txt
 
 RUN \
 apt-get update && \
-apt-get install -y ${PACKAGES} && \
+apt-get install -y --no-install-recommends ${PACKAGES} && \
 python -m venv /opt/toolset && \
-python3 -m pip install \
-${PIP_INSTALL_ARGS} -r /tmp/requirements.txt
+python3 -m pip install --no-cache-dir \
+${PIP_INSTALL_ARGS} -r /tmp/requirements.txt && \
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Final stage
 FROM quay.io/pycontribs/python:3.8-slim-buster
