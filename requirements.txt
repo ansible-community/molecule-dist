@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --no-annotate --output-file=requirements.txt requirements.in
 #
+ansible==4.0.0
 ansible-core==2.11.1
 ansible-lint==5.0.12
-ansible==4.0.0
 appdirs==1.4.4
 arrow==1.1.0
 bcrypt==3.2.0
@@ -16,8 +16,8 @@ cerberus==1.3.2
 certifi==2021.5.30
 cffi==1.14.5
 chardet==4.0.0
-click-help-colors==0.9
 click==8.0.1
+click-help-colors==0.9
 colorama==0.4.4
 commonmark==0.9.1
 cookiecutter==1.7.3
@@ -31,14 +31,15 @@ future==0.18.2
 hcloud==1.12.0
 idna==2.10
 iso8601==0.1.14
-jinja2-time==0.2.0
 jinja2==3.0.1
+jinja2-time==0.2.0
 jmespath==0.10.0
 jsonpatch==1.32
 jsonpointer==2.1
 keystoneauth1==4.3.1
 lxml==4.6.3
 markupsafe==2.0.1
+molecule==3.3.4
 molecule-azure==0.5.0
 molecule-containers==0.2.1
 molecule-digitalocean==0.1
@@ -49,11 +50,10 @@ molecule-goss==1.1
 molecule-hetznercloud==1.2.1
 molecule-inspec==1.1
 molecule-libvirt==0.0.4
-molecule-lxd==0.2
+molecule-lxd==0.3
 molecule-openstack==0.3
 molecule-podman==0.3.0
 molecule-vagrant==0.6.3
-molecule==3.3.4
 munch==2.5.0
 netaddr==0.8.0
 netifaces==0.11.0
@@ -76,8 +76,8 @@ requests==2.25.1
 requestsexceptions==1.4.0
 resolvelib==0.5.4
 rich==10.2.2
-ruamel.yaml.clib==0.2.2
 ruamel.yaml==0.17.7
+ruamel.yaml.clib==0.2.2
 selinux==0.2.1
 six==1.16.0
 stevedore==3.3.0
